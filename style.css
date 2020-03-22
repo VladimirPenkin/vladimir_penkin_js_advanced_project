@@ -1,0 +1,133 @@
+#info {
+	display: none;
+}
+
+body {
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+}
+
+#conteiner {
+	background: url("https://cdn.pocket-lint.com/r/s/1200x/assets/images/147767-tv-feature-what-order-should-you-watch-all-the-star-wars-films-image1-1wdfjceytb.jpg") ;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+}
+
+h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-shadow: yellow 0 0 10px;
+	/*-webkit-text-stroke: yellow 0.5px;*/
+	font-size: 350%;
+	white-space: nowrap;
+	font-weight: 600;
+}
+
+li {
+
+	list-style-type: none;
+	white-space: nowrap;
+	color: white;
+	margin: 10px 0;
+	font-size: 20px;
+	-webkit-text-stroke: black 0.5px;
+}
+
+#foo {
+	display: flex;
+	width: 250px;
+	height: 250px;
+	position: fixed;
+	top: 28%;
+	left: 45%;
+	margin: -125px 0 0 -125px;
+}
+
+ul#heroList li {
+	color: black;
+	width: 300px;
+	height: 47px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+	font-size: 40px;
+	font-weight: 600;
+	-webkit-text-stroke: #6a85f2 0.5px;
+}
+
+ul#heroList li:hover {
+	color: white;
+	-webkit-text-stroke: #6a85f2 0.5px;
+	cursor: pointer;
+}
+
+
+#info {
+	display: flex;
+	position: fixed;
+	top: 18%;
+	left: 70%;
+}
+
+#navigation {
+	position: fixed;
+	bottom: 5%;
+	left: 44%;
+}
+
+
+footer {
+	position: absolute;
+	text-align: left;
+	padding: 15px;
+	font-size: 80%;
+	bottom: 1%;
+	right: 4%;
+}
+
+#next {
+	left: 30%;
+}
+
+input {
+	position: relative;
+	display: inline-block;
+	font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: rgb(245,245,245);
+	text-shadow: 0 -1px rgba(0,0,0,.1);
+	text-decoration: none;
+	user-select: none;
+	padding: .3em 1em;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background: #6a85f2;
+	box-shadow: inset #4a5da9 0 -1px 1px, inset 0 1px 1px #4a5da9, #4a5da9 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+	-webkit-animation: pulsate 1.2s linear infinite;
+	animation: pulsate 1.2s linear infinite;
+}
+input:hover {
+	-webkit-animation-play-state: paused;
+	animation-play-state: paused;
+	cursor: pointer;
+}
+input:active {
+	top: 1px;
+	color: #fff;
+	text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+	box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+}
+@-webkit-keyframes pulsate {
+	50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
+@keyframes pulsate {
+	50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+}
