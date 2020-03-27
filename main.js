@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
 	let conteiner = document.querySelector("#conteiner");
 	let list = document.getElementById("heroList").childNodes;
 
-	url = 'https://swapi.co/api/people/?page=1';
+	url = 'https://swapi.co/api/people/';
 
 	getPeople();
 
@@ -104,7 +104,7 @@ window.addEventListener("load", function () {
 		if (url !== null) {
 			getPeople();
 		} else {
-			url = 'https://swapi.co/api/people/?page=1'
+			url = 'https://swapi.co/api/people/'
 			getPeople();
 		};
 	};
